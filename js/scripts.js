@@ -280,11 +280,7 @@ $(window).load(function() {
         $(this).attr('data-top-bottom', prefix + 'transform: translate3d(0px,100px, 0px)');
     });
 
-    if (!(/Android|iPhone|iPad|iPod|BlackBerry|Windows Phone/i).test(navigator.userAgent || navigator.vendor || window.opera)) {
-        skrollr.init({
-            forceHeight: false
-        });
-    }
+  
 
     $('.tweets-feed').flexslider({
         directionNav: false,
