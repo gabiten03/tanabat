@@ -39,6 +39,10 @@
   z-index: 100;
 }
 
+.heart {
+  color: red;
+}
+
 .whatsapp-icon {
   margin-top: 13px;
   color: #fff;
