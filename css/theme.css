@@ -314,7 +314,7 @@ p:last-child {
   margin-bottom: 0px;
 }
 p.lead {
-  font-size: 16px;
+  font-size: 18px;
   line-height: 30px;
   font-weight: 400;
 }
@@ -1938,7 +1938,7 @@ p.question {
   left: 0;
   width: 100%;
   height: 100%;
-  z-index: 2;
+
   opacity: 0;
 }
 .map-holder iframe {
