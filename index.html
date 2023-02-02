@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <title>Alquiler de Casa en Balneario Reta</title>
-
+    <script type="text/javascript" src="js/dat.gui.js"></script>
 	<meta name="description" content="Casa Tanabata en Reta, casa de mar.Hermosa casa a metros de la playa!! Totalmente equipadas. Ubicadas sobre la calle 36, entre 17 y 15">
     <meta http-equiv="keywords" content="tanabata, reta, casa, cabañas, cabaña, mar, hospedaje, familiar, pesca, playa, vacaciones, casa, alquieler, Cabañas-cabaña-reta-balneario reta–balneario-alquileres-alquiler-vacaciones-pesca-mar-playa-casa-bungalow-bungalows-playas del sur-marisol-copetonas-tres
 arroyos-claromeco-balnearios-hospedaje-hospedajes-oceano-rincon-turismo reta –verano-veranear-monte hermoso- necochea- rincones- playas de reta – alquileres en reta – el reta –costa atlántica-playas de buenos aires – playas grandes – playas abiertas –playas tranquilas – playas para descansar – playas extensas – playas de
@@ -50,6 +50,12 @@ argentina – buenos aires">
       media="all"
     />
     <link href="css/theme.css" rel="stylesheet" type="text/css" media="all" />
+    <link
+    href="css/stars.css"
+    rel="stylesheet"
+    type="text/css"
+    media="all"
+  />
     <link
       href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,300"
       rel="stylesheet"
@@ -228,6 +234,8 @@ argentina – buenos aires">
                 alt="About Image"
                 src="img/hero5.jpg"
               />
+              <div class="filter"></div>
+              <canvas id="canvas"></canvas>
             </div>
 
             <div class="container">
@@ -244,9 +252,8 @@ argentina – buenos aires">
           </li>
         </ul>
 
-        <div class="landscape"></div>
-        <div class="filter"></div>
-        <canvas id="canvas"></canvas>
+      
+     
       </section>
   
       <section class="image-with-text testimonials preserve-3d">
@@ -874,7 +881,9 @@ argentina – buenos aires">
   gtag('config', 'G-X5BEW5ZP41');
 </script>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r99/three.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="js/stars.js"></script>
     
     <script src="js/bootstrap.min.js"></script>
     <script   src="js/skrollr.min.js"></script>
