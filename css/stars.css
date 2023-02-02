@@ -9,7 +9,7 @@ body {
   top: 40;
   left: 0;
   overflow: hidden;
-  background: #fe5757;
+  background: #7a54e4;
   animation: colorChange 30s ease-in-out infinite;
   animation-fill-mode: both;
   mix-blend-mode: overlay;

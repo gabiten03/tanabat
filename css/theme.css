@@ -1005,7 +1005,7 @@ nav .container {
   margin-bottom: 0px;
 }
 .countdown-header:before {
-  opacity: 0.5 !important;
+  opacity: 0 !important;
 }
 .video-header:before {
   opacity: 0.5 !important;
