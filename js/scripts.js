@@ -68,6 +68,14 @@ $(document).ready(function() {
         }
     });
 
+    jQuery.fn.spectragram.accessData = {
+        accessToken: 'IGQVJWdkpaeHgxdHMzRFMxRjBURElmbmpyUkxjckNyZAXJMb2pnSXQwOEpacWkzR2p0TWw4ZAHY1OXJxbFAwWFpIZAUhmYUFZANTd1Nm5HVDU5OWdtUHA4b1lOWHRkZAHIxR0stT1dnV3Y3OWZAIaFBZAQXZA2MwZDZD'
+    };
+
+    $('ul').spectragram({
+        size: 'small'
+    });
+
     /************** Slider Scripts **************/
 
     $('.hero-slider').flexslider({
