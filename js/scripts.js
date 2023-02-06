@@ -104,7 +104,16 @@ $(document).ready(function() {
 
     /************** Instagram Feed **************/
 
-    
+    jQuery.fn.spectragram.accessData = {
+        accessToken: 'IGQVJVTTRZASFNVWkhuLU9GWGxBc0w3YlpXRzJ5dzlNUFhpNFRadWhZAcFNKV0w4djNVdkFvS2ZACQXNfTUVsakpXSnRxZAHBDZAUVaNVh0bHRJbWJ5cmZArb3cwVkxJaFJQTzNXNm01ZAHllSHRSOThpMy1TaAZDZD',
+        clientID: 'fedaafacf224447e8aef74872d3820a1'
+    };
+
+    $('.instafeed').each(function() {
+        $(this).children('ul').spectragram('getUserFeed', {
+            query: $(this).attr('data-user-name')
+        });
+    });
 
     /************** Fullscreen Elements **************/
 
